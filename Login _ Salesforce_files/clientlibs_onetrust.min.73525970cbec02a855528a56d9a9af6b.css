@@ -1,0 +1,85 @@
+#optanon div#optanon-popup-bg{background:#fff;opacity:.75}
+#optanon div#optanon-popup-wrapper{margin-top:0;top:50px !important;width:1008px;height:549px;-webkit-box-shadow:0 5px 7px rgba(0,0,0,0.3);-moz-box-shadow:0 5px 7px rgba(0,0,0,0.3);box-shadow:0 5px 7px rgba(0,0,0,0.3);position:fixed;bottom:0;left:0;right:0;margin:auto}
+@media(max-width:1023px){#optanon div#optanon-popup-wrapper{width:auto;height:auto;max-height:95vh;margin-left:10px;margin-right:10px;top:0 !important;position:fixed;overflow:scroll;bottom:unset}
+}
+#optanon div#optanon-popup-wrapper div#optanon-popup-top{height:137px;border-bottom:0}
+@media(max-width:1023px){#optanon div#optanon-popup-wrapper div#optanon-popup-top{background-color:#f4f4f4;height:83px}
+}
+#optanon div#optanon-popup-wrapper div#optanon-popup-body{background-color:#f4f4f4}
+@media only screen and (min-width:47em){#optanon div#optanon-popup-wrapper div#optanon-popup-body .legacy-preference-banner-title{font-family:"SalesforceSansThin",Helvetica,Arial,sans-serif;font-size:42px !important;font-weight:100;color:#222;top:-100px;left:161px;position:absolute}
+}
+@media(max-width:1023px){#optanon div#optanon-popup-wrapper div#optanon-popup-body .legacy-preference-banner-title{font-family:"SalesforceSansBold",Helvetica,Arial,sans-serif;font-size:15px !important;line-height:24px !important;float:right;margin-right:10px;position:absolute;left:92px;top:-56px}
+}
+#optanon div#optanon-popup-wrapper div#optanon-popup-body p.header-3{font-family:"SalesforceSansBold",Helvetica,Arial,sans-serif;font-size:22px;line-height:1.36;color:#032e61}
+#optanon div#optanon-popup-wrapper div#optanon-popup-body .optanon-main-info-text{font-family:"SalesforceSansRegular",Helvetica,Arial,sans-serif;font-size:15px;line-height:1.6;color:#222}
+@media(max-width:1023px){#optanon div#optanon-popup-wrapper div#optanon-popup-body .optanon-main-info-text{overflow:visible;max-height:none;margin-left:20px;margin-right:20px;margin-bottom:20px;padding-right:0}
+}
+#optanon div#optanon-popup-wrapper div#optanon-popup-body .optanon-main-info-text .optanon-cookie-list{display:none}
+#optanon div#optanon-popup-wrapper div#optanon-popup-body #optanon-popup-body-left{padding-top:25px}
+@media(max-width:1023px){#optanon div#optanon-popup-wrapper div#optanon-popup-body #optanon-popup-body-left{background-color:#f4f4f4;width:100%;padding:0}
+}
+#optanon div#optanon-popup-wrapper div#optanon-popup-body #optanon-popup-body-left #optanon-branding-top-logo{height:57px;width:80.7px;top:-95px;left:50px}
+@media(max-width:1023px){#optanon div#optanon-popup-wrapper div#optanon-popup-body #optanon-popup-body-left #optanon-branding-top-logo{height:42px;width:60px;top:-50px;left:20px}
+}
+#optanon div#optanon-popup-wrapper div#optanon-popup-body #optanon-popup-body-left #optanon-popup-body-left-shading{display:none}
+#optanon div#optanon-popup-wrapper div#optanon-popup-body #optanon-popup-body-left #optanon-menu{margin:0}
+#optanon div#optanon-popup-wrapper div#optanon-popup-body #optanon-popup-body-left #optanon-menu li{border-bottom:0;min-height:45px;padding-right:21px;background-color:transparent !important}
+@media(max-width:1023px){#optanon div#optanon-popup-wrapper div#optanon-popup-body #optanon-popup-body-left #optanon-menu li{padding-right:0}
+}
+#optanon div#optanon-popup-wrapper div#optanon-popup-body #optanon-popup-body-left #optanon-menu li .preference-menu-item{padding:13px 0 13px 0;margin:0 0 0 30px}
+#optanon div#optanon-popup-wrapper div#optanon-popup-body #optanon-popup-body-left #optanon-menu li .preference-menu-item button,#optanon div#optanon-popup-wrapper div#optanon-popup-body #optanon-popup-body-left #optanon-menu li .preference-menu-item a{font-family:"SalesforceSansRegular",Helvetica,Arial,sans-serif;font-size:15px;color:#215ca0;font-weight:normal}
+#optanon div#optanon-popup-wrapper div#optanon-popup-body #optanon-popup-body-left #optanon-menu li .preference-menu-text button{color:#000;font-family:"SalesforceSansBold",Helvetica,Arial,sans-serif}
+#optanon div#optanon-popup-wrapper div#optanon-popup-body #optanon-popup-body-left #optanon-menu .menu-item-selected{background-color:#fff !important}
+#optanon div#optanon-popup-wrapper div#optanon-popup-body #optanon-popup-body-left #optanon-menu li.menu-item-selected::before{content:'';position:absolute;height:45px;width:4px;background-color:#00a1e0}
+#optanon div#optanon-popup-wrapper div#optanon-popup-body #optanon-popup-body-right{height:310px;background-color:#fff;padding-right:11px}
+@media(max-width:1023px){#optanon div#optanon-popup-wrapper div#optanon-popup-body #optanon-popup-body-right{height:fit-content;display:table;width:100%;padding:0}
+}
+@media(max-width:1023px){#optanon div#optanon-popup-wrapper div#optanon-popup-body #optanon-popup-body-right .vendor-header-container{display:inline-grid;margin-left:15px;margin-top:15px}
+#optanon div#optanon-popup-wrapper div#optanon-popup-body #optanon-popup-body-right .vendor-header-container p{font-size:15px}
+}
+#optanon div#optanon-popup-wrapper div#optanon-popup-body #optanon-popup-body-right .vendor-header-container #optanon-popup-more-info-bar{width:17%}
+@media(max-width:1023px){#optanon div#optanon-popup-wrapper div#optanon-popup-body #optanon-popup-body-right .vendor-header-container #optanon-popup-more-info-bar{margin-left:5px;margin-bottom:10px}
+}
+#optanon div#optanon-popup-wrapper div#optanon-popup-body #optanon-popup-body-right .vendor-header-container #optanon-popup-more-info-bar p{font-weight:normal;font-family:"SalesforceSansRegular",Helvetica,Arial,sans-serif;width:max-content;color:#222;font-size:15px}
+#optanon div#optanon-popup-wrapper div#optanon-popup-body .optanon-bottom-spacer{height:0}
+#optanon div#optanon-popup-wrapper #optanon-popup-bottom{border-top:0;padding-bottom:20px;padding-top:20px}
+@media(max-width:1023px){#optanon div#optanon-popup-wrapper #optanon-popup-bottom{padding-bottom:0}
+}
+#optanon div#optanon-popup-wrapper #optanon-popup-bottom #optanon-popup-bottom-logo{display:none}
+#optanon div#optanon-popup-wrapper #optanon-popup-bottom .optanon-button-wrapper{margin:0 20px 0 0}
+@media(max-width:1023px){#optanon div#optanon-popup-wrapper #optanon-popup-bottom .optanon-button-wrapper{margin:0 0 0 20px}
+}
+#optanon div#optanon-popup-wrapper #optanon-popup-bottom .optanon-button-wrapper .optanon-white-button-middle{background-color:#215ca0;transition:background-color .3s ease;border-radius:4px;padding:14px 24px;border:1px solid #215ca0}
+@media(max-width:1023px){#optanon div#optanon-popup-wrapper #optanon-popup-bottom .optanon-button-wrapper .optanon-white-button-middle{margin-bottom:20px}
+}
+#optanon div#optanon-popup-wrapper #optanon-popup-bottom .optanon-button-wrapper .optanon-white-button-middle button{font-family:"SalesforceSansRegular",Helvetica,Arial,sans-serif;font-size:14px;line-height:100%;color:#fff;text-transform:uppercase}
+#optanon div#optanon-popup-wrapper #optanon-popup-bottom .optanon-button-wrapper .optanon-ghost-button{background-color:transparent !important}
+#optanon div#optanon-popup-wrapper #optanon-popup-bottom .optanon-button-wrapper .optanon-ghost-button-text-color{color:#215ca0 !important}
+#optanon div#optanon-popup-wrapper #optanon-popup-bottom .optanon-save-settings-button{display:none}
+@media(max-width:1023px){#optanon div#optanon-popup-wrapper #optanon-popup-bottom .optanon-save-settings-button{float:left}
+}
+#optanon div#optanon-popup-wrapper #optanon-popup-bottom .optanon-allow-all-button{display:block !important}
+@media(max-width:1023px){#optanon div#optanon-popup-wrapper #optanon-popup-bottom .optanon-allow-all-button{float:left}
+}
+#optanon div#optanon-popup-wrapper div.optanon-status-on{color:#222}
+#optanon span.fieldset{margin-top:3px}
+#optanon span.fieldset input:checked+label{background-color:#215ca0;font-weight:normal;font-family:"SalesforceSansRegular",Helvetica,Arial,sans-serif;font-size:15px}
+#optanon span.fieldset label{background-color:#c1b9b4;font-family:"SalesforceSansRegular",Helvetica,Arial,sans-serif;font-weight:normal;font-size:15px}
+div.optanon-alert-box-wrapper{width:900px;min-height:194px;top:160px !important;left:0;right:0;margin:0 auto;background-color:#fff !important;-webkit-box-shadow:0 3px 7px rgba(0,0,0,0.3);-moz-box-shadow:0 3px 7px rgba(0,0,0,0.3);box-shadow:0 3px 7px rgba(0,0,0,0.3)}
+@media(max-width:767px){div.optanon-alert-box-wrapper{width:calc(100% - 20px);margin-left:10px;margin-right:10px;left:0;height:auto;top:10px !important;display:table}
+}
+@media(max-width:1023px){div.optanon-alert-box-wrapper{width:calc(100% - 20px)}
+}
+div.optanon-alert-box-wrapper .optanon-alert-box-bottom-top{height:0}
+div.optanon-alert-box-wrapper .optanon-alert-box-bg p{color:#000 !important;font-family:"SalesforceSansRegular",Helvetica,Arial,sans-serif;padding-bottom:0}
+div.optanon-alert-box-wrapper .optanon-alert-box-bg div.optanon-alert-box-body{padding-top:30px;margin-right:30px;margin-left:30px}
+div.optanon-alert-box-wrapper .optanon-alert-box-bg div.optanon-alert-box-body .banner-policy-link{text-decoration:none !important;font-family:"SalesforceSansBold",Helvetica,Arial,sans-serif;cursor:pointer}
+div.optanon-alert-box-wrapper .optanon-alert-box-bg .optanon-alert-box-button-container{display:inline-block;position:relative;right:0;top:unset;margin-top:20px}
+@media(max-width:767px){div.optanon-alert-box-wrapper .optanon-alert-box-bg .optanon-alert-box-button-container{top:0;padding-right:0}
+div.optanon-alert-box-wrapper .optanon-alert-box-bg .optanon-alert-box-button-container .optanon-alert-box-button.optanon-button-allow,div.optanon-alert-box-wrapper .optanon-alert-box-bg .optanon-alert-box-button-container .optanon-alert-box-button.optanon-button-more{float:left}
+}
+div.optanon-alert-box-wrapper .optanon-alert-box-bg .optanon-alert-box-button-container .optanon-alert-box-button{float:left;margin-left:30px}
+div.optanon-alert-box-wrapper .optanon-alert-box-bg .optanon-alert-box-button-container .optanon-alert-box-button-middle{background-color:#215ca0;transition:background-color .3s ease;border-radius:4px;padding:14px 24px;border:0}
+div.optanon-alert-box-wrapper .optanon-alert-box-bg .optanon-alert-box-button-container .optanon-alert-box-button-middle button{font-family:"SalesforceSansRegular",Helvetica,Arial,sans-serif;font-size:14px;line-height:100%;color:#fff;text-transform:uppercase}
+div.optanon-alert-box-wrapper .optanon-alert-box-bg .optanon-alert-box-button-container .optanon-alert-box-button-middle button:before{content:''}
+div.optanon-alert-box-wrapper .optanon-alert-box-bg .optanon-alert-box-button-container .optanon-button-more .optanon-alert-box-button-middle button{font-family:"SalesforceSansRegular",Helvetica,Arial,sans-serif;font-size:14px;line-height:100%;color:#215ca0 !important;border-bottom:0}

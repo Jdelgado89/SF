@@ -1,0 +1,668 @@
+@font-face{font-family:'Glyphicons Halflings';src:url('clientlibs_base/fonts/glyphicons-halflings-regular.eot');src:url('clientlibs_base/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),url('clientlibs_base/fonts/glyphicons-halflings-regular.woff2') format('woff2'),url('clientlibs_base/fonts/glyphicons-halflings-regular.woff') format('woff'),url('clientlibs_base/fonts/glyphicons-halflings-regular.ttf') format('truetype'),url('clientlibs_base/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg')}
+.glyphicon{position:relative;top:1px;display:inline-block;font-family:'Glyphicons Halflings';font-style:normal;font-weight:normal;line-height:1;letter-spacing:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.glyphicon-asterisk:before{content:"\2a"}
+.glyphicon-plus:before{content:"\2b"}
+.glyphicon-euro:before,.glyphicon-eur:before{content:"\20ac"}
+.glyphicon-minus:before{content:"\2212"}
+.glyphicon-cloud:before{content:"\2601"}
+.glyphicon-envelope:before{content:"\2709"}
+.glyphicon-pencil:before{content:"\270f"}
+.glyphicon-glass:before{content:"\e001"}
+.glyphicon-music:before{content:"\e002"}
+.glyphicon-search:before{content:"\e003"}
+.glyphicon-heart:before{content:"\e005"}
+.glyphicon-star:before{content:"\e006"}
+.glyphicon-star-empty:before{content:"\e007"}
+.glyphicon-user:before{content:"\e008"}
+.glyphicon-film:before{content:"\e009"}
+.glyphicon-th-large:before{content:"\e010"}
+.glyphicon-th:before{content:"\e011"}
+.glyphicon-th-list:before{content:"\e012"}
+.glyphicon-ok:before{content:"\e013"}
+.glyphicon-remove:before{content:"\e014"}
+.glyphicon-zoom-in:before{content:"\e015"}
+.glyphicon-zoom-out:before{content:"\e016"}
+.glyphicon-off:before{content:"\e017"}
+.glyphicon-signal:before{content:"\e018"}
+.glyphicon-cog:before{content:"\e019"}
+.glyphicon-trash:before{content:"\e020"}
+.glyphicon-home:before{content:"\e021"}
+.glyphicon-file:before{content:"\e022"}
+.glyphicon-time:before{content:"\e023"}
+.glyphicon-road:before{content:"\e024"}
+.glyphicon-download-alt:before{content:"\e025"}
+.glyphicon-download:before{content:"\e026"}
+.glyphicon-upload:before{content:"\e027"}
+.glyphicon-inbox:before{content:"\e028"}
+.glyphicon-play-circle:before{content:"\e029"}
+.glyphicon-repeat:before{content:"\e030"}
+.glyphicon-refresh:before{content:"\e031"}
+.glyphicon-list-alt:before{content:"\e032"}
+.glyphicon-lock:before{content:"\e033"}
+.glyphicon-flag:before{content:"\e034"}
+.glyphicon-headphones:before{content:"\e035"}
+.glyphicon-volume-off:before{content:"\e036"}
+.glyphicon-volume-down:before{content:"\e037"}
+.glyphicon-volume-up:before{content:"\e038"}
+.glyphicon-qrcode:before{content:"\e039"}
+.glyphicon-barcode:before{content:"\e040"}
+.glyphicon-tag:before{content:"\e041"}
+.glyphicon-tags:before{content:"\e042"}
+.glyphicon-book:before{content:"\e043"}
+.glyphicon-bookmark:before{content:"\e044"}
+.glyphicon-print:before{content:"\e045"}
+.glyphicon-camera:before{content:"\e046"}
+.glyphicon-font:before{content:"\e047"}
+.glyphicon-bold:before{content:"\e048"}
+.glyphicon-italic:before{content:"\e049"}
+.glyphicon-text-height:before{content:"\e050"}
+.glyphicon-text-width:before{content:"\e051"}
+.glyphicon-align-left:before{content:"\e052"}
+.glyphicon-align-center:before{content:"\e053"}
+.glyphicon-align-right:before{content:"\e054"}
+.glyphicon-align-justify:before{content:"\e055"}
+.glyphicon-list:before{content:"\e056"}
+.glyphicon-indent-left:before{content:"\e057"}
+.glyphicon-indent-right:before{content:"\e058"}
+.glyphicon-facetime-video:before{content:"\e059"}
+.glyphicon-picture:before{content:"\e060"}
+.glyphicon-map-marker:before{content:"\e062"}
+.glyphicon-adjust:before{content:"\e063"}
+.glyphicon-tint:before{content:"\e064"}
+.glyphicon-edit:before{content:"\e065"}
+.glyphicon-share:before{content:"\e066"}
+.glyphicon-check:before{content:"\e067"}
+.glyphicon-move:before{content:"\e068"}
+.glyphicon-step-backward:before{content:"\e069"}
+.glyphicon-fast-backward:before{content:"\e070"}
+.glyphicon-backward:before{content:"\e071"}
+.glyphicon-play{left:.5px}
+.glyphicon-play:before{content:"\e072"}
+.glyphicon-pause:before{content:"\e073"}
+.glyphicon-stop:before{content:"\e074"}
+.glyphicon-forward:before{content:"\e075"}
+.glyphicon-fast-forward:before{content:"\e076"}
+.glyphicon-step-forward:before{content:"\e077"}
+.glyphicon-eject:before{content:"\e078"}
+.glyphicon-chevron-left:before{content:"\e079"}
+.glyphicon-chevron-right:before{content:"\e080"}
+.glyphicon-plus-sign:before{content:"\e081"}
+.glyphicon-minus-sign:before{content:"\e082"}
+.glyphicon-remove-sign:before{content:"\e083"}
+.glyphicon-ok-sign:before{content:"\e084"}
+.glyphicon-question-sign:before{content:"\e085"}
+.glyphicon-info-sign:before{content:"\e086"}
+.glyphicon-screenshot:before{content:"\e087"}
+.glyphicon-remove-circle:before{content:"\e088"}
+.glyphicon-ok-circle:before{content:"\e089"}
+.glyphicon-ban-circle:before{content:"\e090"}
+.glyphicon-arrow-left:before{content:"\e091"}
+.glyphicon-arrow-right:before{content:"\e092"}
+.glyphicon-arrow-up:before{content:"\e093"}
+.glyphicon-arrow-down:before{content:"\e094"}
+.glyphicon-share-alt:before{content:"\e095"}
+.glyphicon-resize-full:before{content:"\e096"}
+.glyphicon-resize-small:before{content:"\e097"}
+.glyphicon-exclamation-sign:before{content:"\e101"}
+.glyphicon-gift:before{content:"\e102"}
+.glyphicon-leaf:before{content:"\e103"}
+.glyphicon-fire:before{content:"\e104"}
+.glyphicon-eye-open:before{content:"\e105"}
+.glyphicon-eye-close:before{content:"\e106"}
+.glyphicon-warning-sign:before{content:"\e107"}
+.glyphicon-plane:before{content:"\e108"}
+.glyphicon-calendar:before{content:"\e109"}
+.glyphicon-random:before{content:"\e110"}
+.glyphicon-comment:before{content:"\e111"}
+.glyphicon-magnet:before{content:"\e112"}
+.glyphicon-chevron-up:before{content:"\e113"}
+.glyphicon-chevron-down:before{content:"\e114"}
+.glyphicon-retweet:before{content:"\e115"}
+.glyphicon-shopping-cart:before{content:"\e116"}
+.glyphicon-folder-close:before{content:"\e117"}
+.glyphicon-folder-open:before{content:"\e118"}
+.glyphicon-resize-vertical:before{content:"\e119"}
+.glyphicon-resize-horizontal:before{content:"\e120"}
+.glyphicon-hdd:before{content:"\e121"}
+.glyphicon-bullhorn:before{content:"\e122"}
+.glyphicon-bell:before{content:"\e123"}
+.glyphicon-certificate:before{content:"\e124"}
+.glyphicon-thumbs-up:before{content:"\e125"}
+.glyphicon-thumbs-down:before{content:"\e126"}
+.glyphicon-hand-right:before{content:"\e127"}
+.glyphicon-hand-left:before{content:"\e128"}
+.glyphicon-hand-up:before{content:"\e129"}
+.glyphicon-hand-down:before{content:"\e130"}
+.glyphicon-circle-arrow-right:before{content:"\e131"}
+.glyphicon-circle-arrow-left:before{content:"\e132"}
+.glyphicon-circle-arrow-up:before{content:"\e133"}
+.glyphicon-circle-arrow-down:before{content:"\e134"}
+.glyphicon-globe:before{content:"\e135"}
+.glyphicon-wrench:before{content:"\e136"}
+.glyphicon-tasks:before{content:"\e137"}
+.glyphicon-filter:before{content:"\e138"}
+.glyphicon-briefcase:before{content:"\e139"}
+.glyphicon-fullscreen:before{content:"\e140"}
+.glyphicon-dashboard:before{content:"\e141"}
+.glyphicon-paperclip:before{content:"\e142"}
+.glyphicon-heart-empty:before{content:"\e143"}
+.glyphicon-link:before{content:"\e144"}
+.glyphicon-phone:before{content:"\e145"}
+.glyphicon-pushpin:before{content:"\e146"}
+.glyphicon-usd:before{content:"\e148"}
+.glyphicon-gbp:before{content:"\e149"}
+.glyphicon-sort:before{content:"\e150"}
+.glyphicon-sort-by-alphabet:before{content:"\e151"}
+.glyphicon-sort-by-alphabet-alt:before{content:"\e152"}
+.glyphicon-sort-by-order:before{content:"\e153"}
+.glyphicon-sort-by-order-alt:before{content:"\e154"}
+.glyphicon-sort-by-attributes:before{content:"\e155"}
+.glyphicon-sort-by-attributes-alt:before{content:"\e156"}
+.glyphicon-unchecked:before{content:"\e157"}
+.glyphicon-expand:before{content:"\e158"}
+.glyphicon-collapse-down:before{content:"\e159"}
+.glyphicon-collapse-up:before{content:"\e160"}
+.glyphicon-log-in:before{content:"\e161"}
+.glyphicon-flash:before{content:"\e162"}
+.glyphicon-log-out:before{content:"\e163"}
+.glyphicon-new-window:before{content:"\e164"}
+.glyphicon-record:before{content:"\e165"}
+.glyphicon-save:before{content:"\e166"}
+.glyphicon-open:before{content:"\e167"}
+.glyphicon-saved:before{content:"\e168"}
+.glyphicon-import:before{content:"\e169"}
+.glyphicon-export:before{content:"\e170"}
+.glyphicon-send:before{content:"\e171"}
+.glyphicon-floppy-disk:before{content:"\e172"}
+.glyphicon-floppy-saved:before{content:"\e173"}
+.glyphicon-floppy-remove:before{content:"\e174"}
+.glyphicon-floppy-save:before{content:"\e175"}
+.glyphicon-floppy-open:before{content:"\e176"}
+.glyphicon-credit-card:before{content:"\e177"}
+.glyphicon-transfer:before{content:"\e178"}
+.glyphicon-cutlery:before{content:"\e179"}
+.glyphicon-header:before{content:"\e180"}
+.glyphicon-compressed:before{content:"\e181"}
+.glyphicon-earphone:before{content:"\e182"}
+.glyphicon-phone-alt:before{content:"\e183"}
+.glyphicon-tower:before{content:"\e184"}
+.glyphicon-stats:before{content:"\e185"}
+.glyphicon-sd-video:before{content:"\e186"}
+.glyphicon-hd-video:before{content:"\e187"}
+.glyphicon-subtitles:before{content:"\e188"}
+.glyphicon-sound-stereo:before{content:"\e189"}
+.glyphicon-sound-dolby:before{content:"\e190"}
+.glyphicon-sound-5-1:before{content:"\e191"}
+.glyphicon-sound-6-1:before{content:"\e192"}
+.glyphicon-sound-7-1:before{content:"\e193"}
+.glyphicon-copyright-mark:before{content:"\e194"}
+.glyphicon-registration-mark:before{content:"\e195"}
+.glyphicon-cloud-download:before{content:"\e197"}
+.glyphicon-cloud-upload:before{content:"\e198"}
+.glyphicon-tree-conifer:before{content:"\e199"}
+.glyphicon-tree-deciduous:before{content:"\e200"}
+.glyphicon-cd:before{content:"\e201"}
+.glyphicon-save-file:before{content:"\e202"}
+.glyphicon-open-file:before{content:"\e203"}
+.glyphicon-level-up:before{content:"\e204"}
+.glyphicon-copy:before{content:"\e205"}
+.glyphicon-paste:before{content:"\e206"}
+.glyphicon-alert:before{content:"\e209"}
+.glyphicon-equalizer:before{content:"\e210"}
+.glyphicon-king:before{content:"\e211"}
+.glyphicon-queen:before{content:"\e212"}
+.glyphicon-pawn:before{content:"\e213"}
+.glyphicon-bishop:before{content:"\e214"}
+.glyphicon-knight:before{content:"\e215"}
+.glyphicon-baby-formula:before{content:"\e216"}
+.glyphicon-tent:before{content:"\26fa"}
+.glyphicon-blackboard:before{content:"\e218"}
+.glyphicon-bed:before{content:"\e219"}
+.glyphicon-apple:before{content:"\f8ff"}
+.glyphicon-erase:before{content:"\e221"}
+.glyphicon-hourglass:before{content:"\231b"}
+.glyphicon-lamp:before{content:"\e223"}
+.glyphicon-duplicate:before{content:"\e224"}
+.glyphicon-piggy-bank:before{content:"\e225"}
+.glyphicon-scissors:before{content:"\e226"}
+.glyphicon-bitcoin:before{content:"\e227"}
+.glyphicon-yen:before{content:"\00a5"}
+.glyphicon-ruble:before{content:"\20bd"}
+.glyphicon-scale:before{content:"\e230"}
+.glyphicon-ice-lolly:before{content:"\e231"}
+.glyphicon-ice-lolly-tasted:before{content:"\e232"}
+.glyphicon-education:before{content:"\e233"}
+.glyphicon-option-horizontal:before{content:"\e234"}
+.glyphicon-option-vertical:before{content:"\e235"}
+.glyphicon-menu-hamburger:before{content:"\e236"}
+.glyphicon-modal-window:before{content:"\e237"}
+.glyphicon-oil:before{content:"\e238"}
+.glyphicon-grain:before{content:"\e239"}
+.glyphicon-sunglasses:before{content:"\e240"}
+.glyphicon-text-size:before{content:"\e241"}
+.glyphicon-text-color:before{content:"\e242"}
+.glyphicon-text-background:before{content:"\e243"}
+.glyphicon-object-align-top:before{content:"\e244"}
+.glyphicon-object-align-bottom:before{content:"\e245"}
+.glyphicon-object-align-horizontal:before{content:"\e246"}
+.glyphicon-object-align-left:before{content:"\e247"}
+.glyphicon-object-align-vertical:before{content:"\e248"}
+.glyphicon-object-align-right:before{content:"\e249"}
+.glyphicon-triangle-right:before{content:"\e250"}
+.glyphicon-triangle-left:before{content:"\e251"}
+.glyphicon-triangle-bottom:before{content:"\e252"}
+.glyphicon-triangle-top:before{content:"\e253"}
+.glyphicon-console:before{content:"\e254"}
+.glyphicon-superscript:before{content:"\e255"}
+.glyphicon-subscript:before{content:"\e256"}
+.glyphicon-menu-left:before{content:"\e257"}
+.glyphicon-menu-right:before{content:"\e258"}
+.glyphicon-menu-down:before{content:"\e259"}
+.glyphicon-menu-up:before{content:"\e260"}
+[class^="icon-vidyard-"],[class*=" icon-vidyard-"],[class^="icon-sfdc-"],[class*=" icon-sfdc-"],[class^="icon-sflive-"],[class*=" icon-sflive-"],[class^="cloud-icon-"],[class*=" cloud-icon-"]{font-family:'Salesforce Icons';speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+[class^="cloud-icon-"].primary-nav-sublink,[class*=" cloud-icon-"].primary-nav-sublink,[class^="cloud-icon-"].secondary-nav-sublink,[class*=" cloud-icon-"].secondary-nav-sublink{-webkit-font-smoothing:auto;-moz-osx-font-smoothing:auto;color:#fff !important}
+[class^="cloud-icon-"].primary-nav-sublink:before,[class*=" cloud-icon-"].primary-nav-sublink:before,[class^="cloud-icon-"].secondary-nav-sublink:before,[class*=" cloud-icon-"].secondary-nav-sublink:before{display:none}
+.nav-overlay-drawer .social-media-links a [class^="cloud-icon-"],.nav-overlay-drawer .social-media-links a [class*=" cloud-icon-"]{font-size:30px}
+.h3lg [class^="cloud-icon-"],.h3lg [class*=" cloud-icon-"]{font-size:40px}
+.salesforce-icon{height:55px;width:55px;background-size:contain !important}
+.salesforce-social-icon{background-size:contain;height:30px;width:30px;display:inline-block}
+.salesforce-pricing-icon{width:16px;height:16px;vertical-align:middle}
+.icon-sfdc-social-instagram{background:url("../../../content/dam/web/global/svg-icons/instagram-day.svg?version=1562689132058") no-repeat}
+.icon-sfdc-social-instagram-night{background:url("../../../content/dam/web/global/svg-icons/instagram-night.svg?version=1562689132060") no-repeat}
+.icon-sfdc-icon-product-quip:before{content:"\e953"}
+.icon-sfdc-icon-phone:before{content:"\e950"}
+.icon-sfdc-icon-headset:before{content:"\e951"}
+.icon-sfdc-icon-chat:before{content:"\e952"}
+.icon-sfdc-icon-download:before{content:"\e948"}
+.icon-sfdc-icon-email:before{content:"\e949"}
+.icon-sfdc-icon-xing,.icon-sfdc-icon-social-xing{background:url("../../../content/dam/web/global/svg-icons/xing-day.svg?version=1562689132062") no-repeat}
+.icon-sfdc-icon-xing-day2,.icon-sfdc-icon-social-xing-day2{background:url("../../../content/dam/web/global/svg-icons/xing-day2.svg?version=1562689132063") no-repeat}
+.icon-sfdc-icon-xing-day3,.icon-sfdc-icon-social-xing-day3{background:url("../../../content/dam/web/global/svg-icons/xing-day3.svg?version=1562689132064") no-repeat}
+.icon-sfdc-icon-xing-night,.icon-sfdc-icon-social-xing-night{background:url("../../../content/dam/web/global/svg-icons/xing-night.svg?version=1562689132065") no-repeat}
+.icon-sfdc-icon-wechat,.icon-sfdc-icon-social-wechat{background:url("../../../content/dam/web/global/svg-icons/we-chat-day.svg?version=1562689132066") no-repeat}
+.icon-sfdc-icon-wechat-day2,.icon-sfdc-icon-social-wechat-day2{background:url("../../../content/dam/web/global/svg-icons/we-chat-day2.svg?version=1562689132067") no-repeat}
+.icon-sfdc-icon-wechat-day3,.icon-sfdc-icon-social-wechat-day3{background:url("../../../content/dam/web/global/svg-icons/we-chat-day3.svg?version=1562689132069") no-repeat}
+.icon-sfdc-icon-wechat-night,.icon-sfdc-icon-social-wechat-night{background:url("../../../content/dam/web/global/svg-icons/we-chat-night.svg?version=1562689132070") no-repeat}
+.icon-sfdc-icon-left-arrow:before{content:"\e943"}
+.icon-sfdc-icon-product-e-commerce:before{content:"\e941"}
+.icon-sflive-keynote:before{content:"\e93e"}
+.icon-sflive-productkeynote:before{content:"\e93f"}
+.icon-sflive-session:before{content:"\e940"}
+.icon-sfdc-icon-certified:before{content:"\e93c"}
+.icon-sfdc-icon-philantropy-cloud:before{content:"\e95c"}
+.icon-sfdc-icon-social-blog{background:url("../../../content/dam/web/global/svg-icons/blog-day.svg?version=1562689132071") no-repeat}
+.icon-sfdc-icon-social-blog-day2{background:url("../../../content/dam/web/global/svg-icons/blog-day2.svg?version=1562689132073") no-repeat}
+.icon-sfdc-icon-social-blog-day3{background:url("../../../content/dam/web/global/svg-icons/blog-day3.svg?version=1562689132074") no-repeat}
+.icon-sfdc-icon-social-blog-night{background:url("../../../content/dam/web/global/svg-icons/blog-night.svg?version=1562689132075") no-repeat}
+.icon-sfdc-icon-1oclock:before{content:"\e900"}
+.icon-sfdc-icon-5oclock:before{content:"\e901"}
+.icon-sfdc-icon-8oclock:before{content:"\e902"}
+.icon-sfdc-icon-alarm:before{content:"\e903"}
+.icon-sfdc-icon-calendar{background:url("../../../content/dam/web/global/svg-icons/calendar-day.svg?version=1562689132077") no-repeat;width:20px !important;height:20px !important}
+.icon-sfdc-icon-calendar-night{background:url("../../../content/dam/web/global/svg-icons/calendar-night.svg?version=1562689132078") no-repeat;width:20px !important;height:20px !important}
+.icon-sfdc-icon-closed-captioning:before{content:"\e905"}
+.icon-sfdc-icon-comments:before{content:"\e906"}
+.icon-sfdc-icon-down-arrow:before{content:"\e907"}
+.icon-vidyard-fullscreen-enter:before,.icon-sfdc-icon-fullscreen-enter:before{content:"\e908"}
+.icon-vidyard-fullscreen-exit:before,.icon-sfdc-icon-fullscreen-exit:before{content:"\e909"}
+.icon-sfdc-icon-fullscreen:before{content:"\e90a"}
+.icon-sfdc-icon-globe:before{content:"\e90b"}
+.icon-sfdc-icon-grid{background:url("../../../content/dam/web/global/svg-icons/grid-day.svg?version=1562689132079") no-repeat;width:20px !important;height:20px !important}
+.icon-sfdc-icon-grid-night{background:url("../../../content/dam/web/global/svg-icons/grid-night.svg?version=1562689132081") no-repeat;width:20px !important;height:20px !important}
+.icon-sfdc-icon-hamburger:before{content:"\e90d"}
+.icon-vidyard-hd:before,.icon-sfdc-icon-hd:before{content:"\e90e"}
+.icon-sfdc-icon-login:before{content:"\e90f"}
+.icon-sfdc-icon-magnifying-glass:before{content:"\e910"}
+.icon-sfdc-icon-minus:before{content:"\e911"}
+.icon-sfdc-icon-offsite:before{content:"\e912"}
+.icon-vidyard-pause:before,.icon-sfdc-icon-pause-round:before{content:"\e913"}
+.icon-sfdc-icon-pause-square:before{content:"\e914"}
+.icon-vidyard-play-only:before,.icon-sfdc-icon-play-only:before{content:"\e915"}
+.icon-vidyard-play:before,.icon-sfdc-icon-play:before{content:"\e916"}
+.icon-sfdc-icon-plus:before{content:"\e917"}
+.icon-sfdc-icon-retweet:before{content:"\e923"}
+.icon-sfdc-icon-right-arrow:before{content:"\e924"}
+.icon-sfdc-icon-share:before{content:"\e925"}
+.icon-sfdc-icon-facebook-night,.icon-sfdc-icon-social-facebook-night{background:url("../../../content/dam/web/global/svg-icons/facebook-night.svg?version=1562689132083") no-repeat}
+.icon-sfdc-icon-facebook,.icon-sfdc-icon-social-facebook{background:url("../../../content/dam/web/global/svg-icons/facebook-day.svg?version=1562689132085") no-repeat}
+.icon-sfdc-icon-google-night,.icon-sfdc-icon-social-google-night{background:url("../../../content/dam/web/global/svg-icons/google-night.svg?version=1562689132086") no-repeat}
+.icon-sfdc-icon-google,.icon-sfdc-icon-social-google{background:url("../../../content/dam/web/global/svg-icons/google-day.svg?version=1562689132087") no-repeat}
+.icon-sfdc-icon-linkedin-night,.icon-sfdc-icon-social-linkedin-night{background:url("../../../content/dam/web/global/svg-icons/linkedin-night.svg?version=1562689132088") no-repeat}
+.icon-sfdc-icon-linkedin,.icon-sfdc-icon-social-linkedin{background:url("../../../content/dam/web/global/svg-icons/linkedin-day.svg?version=1562689132089") no-repeat}
+.icon-sfdc-icon-twitter-night,.icon-sfdc-icon-social-twitter-night{background:url("../../../content/dam/web/global/svg-icons/twitter-night.svg?version=1562689132090") no-repeat}
+.icon-sfdc-icon-twitter,.icon-sfdc-icon-social-twitter{background:url("../../../content/dam/web/global/svg-icons/twitter-day.svg?version=1562689132091") no-repeat}
+.icon-sfdc-icon-youtube-night,.icon-sfdc-icon-social-youtube-night{background:url("../../../content/dam/web/global/svg-icons/youtube-night.svg?version=1562689132093") no-repeat}
+.icon-sfdc-icon-youtube,.icon-sfdc-icon-social-youtube{background:url("../../../content/dam/web/global/svg-icons/youtube-day.svg?version=1562689132094") no-repeat}
+.social-media-links a:hover svg,.headingComponent a:hover svg{opacity:.8}
+.social-media-links a.preventHover:hover svg,.headingComponent a.preventHover:hover svg{opacity:1}
+.icon-vidyard-sound-bar:before,.icon-sfdc-icon-sound-bar:before{content:"\e930"}
+.icon-sfdc-icon-sound-mute:before{content:"\e931"}
+.icon-vidyard-sound:before,.icon-sfdc-icon-sound:before{content:"\e932"}
+.icon-sfdc-icon-star{background:url("../../../content/dam/web/global/svg-icons/star-day.svg?version=1562689132095") no-repeat;width:20px !important;height:20px !important}
+.icon-sfdc-icon-star-night{background:url("../../../content/dam/web/global/svg-icons/star-night.svg?version=1562689132096") no-repeat;width:20px !important;height:20px !important}
+.icon-sfdc-icon-talk-bubble-plus:before{content:"\e934"}
+.icon-sfdc-icon-talk-bubble:before{content:"\e935"}
+.icon-sfdc-icon-tooltip:before{content:"\e936"}
+.icon-sfdc-icon-up-arrow:before{content:"\e937"}
+.icon-sfdc-icon-volume:before{content:"\e938"}
+.icon-sfdc-icon-whitepaper:before{content:"\e939"}
+.icon-sfdc-icon-whitepaper2:before{content:"\e93a"}
+.icon-sfdc-icon-x:before{content:"\e93b"}
+.headingComponent a.has-cloud-icon{position:relative}
+.headingComponent a:hover .cloud-icon-smb:before{color:#00587a !important}
+.cloud-icon-all{padding-right:10px}
+.cloud-icon-all.vertical-bar-prefix{padding-left:10px}
+.cloud-icon-smb{background:url("../../../content/dam/web/global/svg-icons/product-smb-day.svg?version=1562689132100") no-repeat;color:#00a1e0 !important;padding-right:10px}
+.cloud-icon-smb.vertical-bar-prefix{padding-left:10px;border-left:1px solid #00a1e0}
+.cloud-icon-smb.primary-nav-sublink,.cloud-icon-smb.secondary-nav-sublink{background-color:#00a1e0 !important;border-bottom:1px solid #00a1e0 !important}
+.cloud-icon-smb-day2{background:url("../../../content/dam/web/global/svg-icons/product-smb-day2.svg?version=1562689132102") no-repeat;color:#00a1e0 !important;padding-right:10px}
+.cloud-icon-smb-day2.vertical-bar-prefix{padding-left:10px;border-left:1px solid #00a1e0}
+.cloud-icon-smb-day2.primary-nav-sublink,.cloud-icon-smb-day2.secondary-nav-sublink{background-color:#00a1e0 !important;border-bottom:1px solid #00a1e0 !important}
+.cloud-icon-smb-day3{background:url("../../../content/dam/web/global/svg-icons/product-smb-day3.svg?version=1562689132103") no-repeat;color:#00a1e0 !important;padding-right:10px}
+.cloud-icon-smb-day3.vertical-bar-prefix{padding-left:10px;border-left:1px solid #00a1e0}
+.cloud-icon-smb-day3.primary-nav-sublink,.cloud-icon-smb-day3.secondary-nav-sublink{background-color:#00a1e0 !important;border-bottom:1px solid #00a1e0 !important}
+.cloud-icon-smb-night{background:url("../../../content/dam/web/global/svg-icons/product-smb-night.svg?version=1562689132105") no-repeat;color:#00a1e0 !important;padding-right:10px}
+.cloud-icon-smb-night.vertical-bar-prefix{padding-left:10px;border-left:1px solid #00a1e0}
+.cloud-icon-smb-night.primary-nav-sublink,.cloud-icon-smb-night.secondary-nav-sublink{background-color:#00a1e0 !important;border-bottom:1px solid #00a1e0 !important}
+.headingComponent a.preventHover:hover .cloud-icon-smb:before{color:#00a1e0 !important}
+.headingComponent a:hover .cloud-icon-lightning-thunder:before{color:#000 !important}
+.cloud-icon-lightning-thunder-night{background:url("../../../content/dam/web/global/svg-icons/lightning-thunder-night.svg?version=1562689132107") no-repeat;color:#032e61 !important;padding-right:10px;width:20px !important;height:20px !important}
+.cloud-icon-lightning-thunder-night.vertical-bar-prefix{padding-left:10px;border-left:1px solid #032e61}
+.cloud-icon-lightning-thunder-night.primary-nav-sublink,.cloud-icon-lightning-thunder-night.secondary-nav-sublink{background-color:#032e61 !important;border-bottom:1px solid #032e61 !important}
+.cloud-icon-lightning-thunder{background:url("../../../content/dam/web/global/svg-icons/lightning-thunder-day.svg?version=1562689132109") no-repeat;color:#032e61 !important;padding-right:10px;width:20px !important;height:20px !important}
+.cloud-icon-lightning-thunder.vertical-bar-prefix{padding-left:10px;border-left:1px solid #032e61}
+.cloud-icon-lightning-thunder.primary-nav-sublink,.cloud-icon-lightning-thunder.secondary-nav-sublink{background-color:#032e61 !important;border-bottom:1px solid #032e61 !important}
+.headingComponent a.preventHover:hover .cloud-icon-lightning-thunder:before{color:#032e61 !important}
+.headingComponent a:hover .cloud-icon-product-quip{color:#792811 !important}
+.cloud-icon-product-quip-night{background:url("../../../content/dam/web/global/svg-icons/collaboration-night.svg?version=1562689132111") no-repeat;color:#d3451d !important;padding-right:10px}
+.cloud-icon-product-quip-night.vertical-bar-prefix{padding-left:10px;border-left:1px solid #d3451d}
+.cloud-icon-product-quip-night.primary-nav-sublink,.cloud-icon-product-quip-night.secondary-nav-sublink{background-color:#d3451d !important;border-bottom:1px solid #d3451d !important}
+.cloud-icon-product-quip{background:url("../../../content/dam/web/global/svg-icons/collaboration-day.svg?version=1562689132112") no-repeat;color:#d3451d !important;padding-right:10px}
+.cloud-icon-product-quip.vertical-bar-prefix{padding-left:10px;border-left:1px solid #d3451d}
+.cloud-icon-product-quip.primary-nav-sublink,.cloud-icon-product-quip.secondary-nav-sublink{background-color:#d3451d !important;border-bottom:1px solid #d3451d !important}
+.cloud-icon-product-quip-day2{background:url("../../../content/dam/web/global/svg-icons/collaboration-day2.svg?version=1562689132114") no-repeat;color:#d3451d !important;padding-right:10px}
+.cloud-icon-product-quip-day2.vertical-bar-prefix{padding-left:10px;border-left:1px solid #d3451d}
+.cloud-icon-product-quip-day2.primary-nav-sublink,.cloud-icon-product-quip-day2.secondary-nav-sublink{background-color:#d3451d !important;border-bottom:1px solid #d3451d !important}
+.cloud-icon-product-quip-day3{background:url("../../../content/dam/web/global/svg-icons/collaboration-day3.svg?version=1562689132115") no-repeat;color:#d3451d !important;padding-right:10px}
+.cloud-icon-product-quip-day3.vertical-bar-prefix{padding-left:10px;border-left:1px solid #d3451d}
+.cloud-icon-product-quip-day3.primary-nav-sublink,.cloud-icon-product-quip-day3.secondary-nav-sublink{background-color:#d3451d !important;border-bottom:1px solid #d3451d !important}
+.headingComponent a.preventHover:hover .cloud-icon-product-quip:before{color:#d3451d !important}
+.headingComponent a:hover .cloud-icon-analytics:before{color:#00587a !important}
+.cloud-icon-analytics-night{background:url("../../../content/dam/web/global/svg-icons/analytics-night.svg?version=1562689132117") no-repeat;color:#00a1e0 !important;padding-right:10px}
+.cloud-icon-analytics-night.vertical-bar-prefix{padding-left:10px;border-left:1px solid #00a1e0}
+.cloud-icon-analytics-night.primary-nav-sublink,.cloud-icon-analytics-night.secondary-nav-sublink{background-color:#00a1e0 !important;border-bottom:1px solid #00a1e0 !important}
+.cloud-icon-analytics{background:url("../../../content/dam/web/global/svg-icons/analytics-day.svg?version=1562689132118") no-repeat;color:#00a1e0 !important;padding-right:10px}
+.cloud-icon-analytics.vertical-bar-prefix{padding-left:10px;border-left:1px solid #00a1e0}
+.cloud-icon-analytics.primary-nav-sublink,.cloud-icon-analytics.secondary-nav-sublink{background-color:#00a1e0 !important;border-bottom:1px solid #00a1e0 !important}
+.cloud-icon-analytics-day2{background:url("../../../content/dam/web/global/svg-icons/analytics-day2.svg?version=1562689132120") no-repeat;color:#00a1e0 !important;padding-right:10px}
+.cloud-icon-analytics-day2.vertical-bar-prefix{padding-left:10px;border-left:1px solid #00a1e0}
+.cloud-icon-analytics-day2.primary-nav-sublink,.cloud-icon-analytics-day2.secondary-nav-sublink{background-color:#00a1e0 !important;border-bottom:1px solid #00a1e0 !important}
+.cloud-icon-analytics-day3{background:url("../../../content/dam/web/global/svg-icons/analytics-day3.svg?version=1562689132121") no-repeat;color:#00a1e0 !important;padding-right:10px}
+.cloud-icon-analytics-day3.vertical-bar-prefix{padding-left:10px;border-left:1px solid #00a1e0}
+.cloud-icon-analytics-day3.primary-nav-sublink,.cloud-icon-analytics-day3.secondary-nav-sublink{background-color:#00a1e0 !important;border-bottom:1px solid #00a1e0 !important}
+.headingComponent a.preventHover:hover .cloud-icon-analytics:before{color:#00a1e0 !important}
+.headingComponent a:hover .cloud-icon-platform:before{color:#000 !important}
+.cloud-icon-platform-night{background:url("../../../content/dam/web/global/svg-icons/platform-night.svg?version=1562689132123") no-repeat;color:#032e61 !important;padding-right:10px}
+.cloud-icon-platform-night.vertical-bar-prefix{padding-left:10px;border-left:1px solid #032e61}
+.cloud-icon-platform-night.primary-nav-sublink,.cloud-icon-platform-night.secondary-nav-sublink{background-color:#032e61 !important;border-bottom:1px solid #032e61 !important}
+.cloud-icon-platform{background:url("../../../content/dam/web/global/svg-icons/platform-day.svg?version=1562689132124") no-repeat;color:#032e61 !important;padding-right:10px}
+.cloud-icon-platform.vertical-bar-prefix{padding-left:10px;border-left:1px solid #032e61}
+.cloud-icon-platform.primary-nav-sublink,.cloud-icon-platform.secondary-nav-sublink{background-color:#032e61 !important;border-bottom:1px solid #032e61 !important}
+.cloud-icon-platform-day2{background:url("../../../content/dam/web/global/svg-icons/platform-day2.svg?version=1562689132126") no-repeat;color:#032e61 !important;padding-right:10px}
+.cloud-icon-platform-day2.vertical-bar-prefix{padding-left:10px;border-left:1px solid #032e61}
+.cloud-icon-platform-day2.primary-nav-sublink,.cloud-icon-platform-day2.secondary-nav-sublink{background-color:#032e61 !important;border-bottom:1px solid #032e61 !important}
+.cloud-icon-platform-day3{background:url("../../../content/dam/web/global/svg-icons/platform-day3.svg?version=1562689132127") no-repeat;color:#032e61 !important;padding-right:10px}
+.cloud-icon-platform-day3.vertical-bar-prefix{padding-left:10px;border-left:1px solid #032e61}
+.cloud-icon-platform-day3.primary-nav-sublink,.cloud-icon-platform-day3.secondary-nav-sublink{background-color:#032e61 !important;border-bottom:1px solid #032e61 !important}
+.headingComponent a.preventHover:hover .cloud-icon-platform:before{color:#032e61 !important}
+.headingComponent a:hover .cloud-icon-community:before{color:#64480d !important}
+.cloud-icon-community-night{background:url("../../../content/dam/web/global/svg-icons/communities-night.svg?version=1562689132129") no-repeat;color:#be8919 !important;padding-right:10px}
+.cloud-icon-community-night.vertical-bar-prefix{padding-left:10px;border-left:1px solid #be8919}
+.cloud-icon-community-night.primary-nav-sublink,.cloud-icon-community-night.secondary-nav-sublink{background-color:#be8919 !important;border-bottom:1px solid #be8919 !important}
+.cloud-icon-community{background:url("../../../content/dam/web/global/svg-icons/communities-day.svg?version=1562689132130") no-repeat;color:#be8919 !important;padding-right:10px}
+.cloud-icon-community.vertical-bar-prefix{padding-left:10px;border-left:1px solid #be8919}
+.cloud-icon-community.primary-nav-sublink,.cloud-icon-community.secondary-nav-sublink{background-color:#be8919 !important;border-bottom:1px solid #be8919 !important}
+.cloud-icon-community-day2{background:url("../../../content/dam/web/global/svg-icons/communities-day2.svg?version=1562689132131") no-repeat;color:#be8919 !important;padding-right:10px}
+.cloud-icon-community-day2.vertical-bar-prefix{padding-left:10px;border-left:1px solid #be8919}
+.cloud-icon-community-day2.primary-nav-sublink,.cloud-icon-community-day2.secondary-nav-sublink{background-color:#be8919 !important;border-bottom:1px solid #be8919 !important}
+.cloud-icon-community-day3{background:url("../../../content/dam/web/global/svg-icons/communities-day3.svg?version=1562689132133") no-repeat;color:#be8919 !important;padding-right:10px}
+.cloud-icon-community-day3.vertical-bar-prefix{padding-left:10px;border-left:1px solid #be8919}
+.cloud-icon-community-day3.primary-nav-sublink,.cloud-icon-community-day3.secondary-nav-sublink{background-color:#be8919 !important;border-bottom:1px solid #be8919 !important}
+.headingComponent a.preventHover:hover .cloud-icon-community:before{color:#be8919 !important}
+.headingComponent a:hover .cloud-icon-industries:before,.headingComponent a:hover .cloud-icon-industries-comms-media:before,.headingComponent a:hover .cloud-icon-industries-life-sciences:before,.headingComponent a:hover .cloud-icon-industries-manufacturing:before,.headingComponent a:hover .cloud-icon-industries-retail:before,.headingComponent a:hover .cloud-icon-industries-fin-serv:before,.headingComponent a:hover .cloud-icon-industries-health:before,.headingComponent a:hover .cloud-icon-industries-media:before,.headingComponent a:hover .cloud-icon-industries-automotive:before,.headingComponent a:hover .cloud-icon-industries-consumer-goods:before,.headingComponent a:hover .cloud-icon-industries-government:before,.headingComponent a:hover .cloud-icon-industries-transportation-hospitality:before,.headingComponent a:hover .cloud-icon-philanthropy:before{color:#060205 !important}
+.headingComponent a:hover .cloud-icon-industries-product-integration:before{color:#184476 !important}
+.cloud-icon-industries-night{background:url("../../../content/dam/web/global/svg-icons/industries-night.svg?version=1562689132135") no-repeat}
+.cloud-icon-industries{background:url("../../../content/dam/web/global/svg-icons/industries-day.svg?version=1562689132136") no-repeat}
+.cloud-icon-industries-day2{background:url("../../../content/dam/web/global/svg-icons/industries-day2.svg?version=1562689132137") no-repeat}
+.cloud-icon-industries-day3{background:url("../../../content/dam/web/global/svg-icons/industries-day3.svg?version=1562689132138") no-repeat}
+.cloud-icon-industries-comms-media-night{background:url("../../../content/dam/web/global/svg-icons/communications-night.svg?version=1562689132139") no-repeat}
+.cloud-icon-industries-comms-media{background:url("../../../content/dam/web/global/svg-icons/communications-day.svg?version=1562689132140") no-repeat}
+.cloud-icon-industries-comms-media-day2{background:url("../../../content/dam/web/global/svg-icons/communications-day2.svg?version=1562689132141") no-repeat}
+.cloud-icon-industries-comms-media-day3{background:url("../../../content/dam/web/global/svg-icons/communications-day3.svg?version=1562689132142") no-repeat}
+.cloud-icon-industries-life-sciences-night{background:url("../../../content/dam/web/global/svg-icons/health-night.svg?version=1562689132143") no-repeat}
+.cloud-icon-industries-life-sciences{background:url("../../../content/dam/web/global/svg-icons/health-day.svg?version=1562689132144") no-repeat}
+.cloud-icon-industries-life-sciences-day2{background:url("../../../content/dam/web/global/svg-icons/health-day2.svg?version=1562689132145") no-repeat}
+.cloud-icon-industries-life-sciences-day3{background:url("../../../content/dam/web/global/svg-icons/health-day3.svg?version=1562689132146") no-repeat}
+.cloud-icon-industries-health-life-sciences-night{background:url("../../../content/dam/web/global/svg-icons/health-night.svg?version=1562689132147") no-repeat}
+.cloud-icon-industries-health-life-sciences{background:url("../../../content/dam/web/global/svg-icons/health-day.svg?version=1562689132148") no-repeat}
+.cloud-icon-industries-health-life-sciences-day2{background:url("../../../content/dam/web/global/svg-icons/health-day2.svg?version=1562689132149") no-repeat}
+.cloud-icon-industries-health-life-sciences-day3{background:url("../../../content/dam/web/global/svg-icons/health-day3.svg?version=1562689132150") no-repeat}
+.cloud-icon-industries-manufacturing-night{background:url("../../../content/dam/web/global/svg-icons/manufacturing-night.svg?version=1562689132151") no-repeat}
+.cloud-icon-industries-manufacturing{background:url("../../../content/dam/web/global/svg-icons/manufacturing-day.svg?version=1562689132152") no-repeat}
+.cloud-icon-industries-manufacturing-day2{background:url("../../../content/dam/web/global/svg-icons/manufacturing-day2.svg?version=1562689132153") no-repeat}
+.cloud-icon-industries-manufacturing-day3{background:url("../../../content/dam/web/global/svg-icons/manufacturing-day3.svg?version=1562689132154") no-repeat}
+.cloud-icon-industries-retail-night{background:url("../../../content/dam/web/global/svg-icons/retail-night.svg?version=1562689132155") no-repeat}
+.cloud-icon-industries-retail{background:url("../../../content/dam/web/global/svg-icons/retail-day.svg?version=1562689132156") no-repeat}
+.cloud-icon-industries-retail-day2{background:url("../../../content/dam/web/global/svg-icons/retail-day2.svg?version=1562689132157") no-repeat}
+.cloud-icon-industries-retail-day3{background:url("../../../content/dam/web/global/svg-icons/retail-day3.svg?version=1562689132158") no-repeat}
+.cloud-icon-industries-fin-serv-night{background:url("../../../content/dam/web/global/svg-icons/financial-night.svg?version=1562689132159") no-repeat}
+.cloud-icon-industries-fin-serv{background:url("../../../content/dam/web/global/svg-icons/financial-day.svg?version=1562689132160") no-repeat}
+.cloud-icon-industries-fin-serv-day2{background:url("../../../content/dam/web/global/svg-icons/financial-day2.svg?version=1562689132161") no-repeat}
+.cloud-icon-industries-fin-serv-day3{background:url("../../../content/dam/web/global/svg-icons/financial-day3.svg?version=1562689132162") no-repeat}
+.cloud-icon-industries-health-night{background:url("../../../content/dam/web/global/svg-icons/health-night.svg?version=1562689132163") no-repeat}
+.cloud-icon-industries-health{background:url("../../../content/dam/web/global/svg-icons/health-day.svg?version=1562689132163") no-repeat}
+.cloud-icon-industries-health-day2{background:url("../../../content/dam/web/global/svg-icons/health-day2.svg?version=1562689132164") no-repeat}
+.cloud-icon-industries-health-day3{background:url("../../../content/dam/web/global/svg-icons/health-day3.svg?version=1562689132165") no-repeat}
+.cloud-icon-industries-media-night{background:url("../../../content/dam/web/global/svg-icons/media-night.svg?version=1562689132166") no-repeat}
+.cloud-icon-industries-media{background:url("../../../content/dam/web/global/svg-icons/media-day.svg?version=1562689132167") no-repeat}
+.cloud-icon-industries-media-day2{background:url("../../../content/dam/web/global/svg-icons/media-day2.svg?version=1562689132168") no-repeat}
+.cloud-icon-industries-media-day3{background:url("../../../content/dam/web/global/svg-icons/media-day3.svg?version=1562689132169") no-repeat}
+.cloud-icon-industries-automotive-night{background:url("../../../content/dam/web/global/svg-icons/automotive-night.svg?version=1562689132170") no-repeat}
+.cloud-icon-industries-automotive{background:url("../../../content/dam/web/global/svg-icons/automotive-day.svg?version=1562689132171") no-repeat}
+.cloud-icon-industries-automotive-day2{background:url("../../../content/dam/web/global/svg-icons/automotive-day2.svg?version=1562689132172") no-repeat}
+.cloud-icon-industries-automotive-day3{background:url("../../../content/dam/web/global/svg-icons/automotive-day3.svg?version=1562689132173") no-repeat}
+.cloud-icon-industries-consumer-goods-night{background:url("../../../content/dam/web/global/svg-icons/consumer-goods-night.svg?version=1562689132174") no-repeat}
+.cloud-icon-industries-consumer-goods{background:url("../../../content/dam/web/global/svg-icons/consumer-goods-day.svg?version=1562689132174") no-repeat}
+.cloud-icon-industries-consumer-goods-day2{background:url("../../../content/dam/web/global/svg-icons/consumer-goods-day2.svg?version=1562689132175") no-repeat}
+.cloud-icon-industries-consumer-goods-day3{background:url("../../../content/dam/web/global/svg-icons/consumer-goods-day3.svg?version=1562689132176") no-repeat}
+.cloud-icon-industries-government-night{background:url("../../../content/dam/web/global/svg-icons/government-night.svg?version=1562689132177") no-repeat}
+.cloud-icon-industries-government{background:url("../../../content/dam/web/global/svg-icons/government-day.svg?version=1562689132178") no-repeat}
+.cloud-icon-industries-government-day2{background:url("../../../content/dam/web/global/svg-icons/government-day2.svg?version=1562689132179") no-repeat}
+.cloud-icon-industries-government-day3{background:url("../../../content/dam/web/global/svg-icons/government-day3.svg?version=1562689132180") no-repeat}
+.cloud-icon-industries-transportation-hospitality-night{background:url("../../../content/dam/web/global/svg-icons/transportation-night.svg?version=1562689132181") no-repeat}
+.cloud-icon-industries-transportation-hospitality{background:url("../../../content/dam/web/global/svg-icons/transportation-day.svg?version=1562689132182") no-repeat}
+.cloud-icon-industries-transportation-hospitality-day2{background:url("../../../content/dam/web/global/svg-icons/transportation-day2.svg?version=1562689132183") no-repeat}
+.cloud-icon-industries-transportation-hospitality-day3{background:url("../../../content/dam/web/global/svg-icons/transportation-day3.svg?version=1562689132183") no-repeat}
+.cloud-icon-industries-product-integration-night{background:url("../../../content/dam/web/global/svg-icons/integration-night.svg?version=1562689132184") no-repeat}
+.cloud-icon-industries-product-integration{background:url("../../../content/dam/web/global/svg-icons/integration-day.svg?version=1562689132185") no-repeat}
+.cloud-icon-industries-product-integration-day2{background:url("../../../content/dam/web/global/svg-icons/integration-day2.svg?version=1562689132186") no-repeat}
+.cloud-icon-industries-product-integration-day3{background:url("../../../content/dam/web/global/svg-icons/integration-day3.svg?version=1562689132187") no-repeat}
+.cloud-icon-philanthropy-night{background:url("../../../content/dam/web/global/svg-icons/philanthropy-night.svg?version=1562689132188") no-repeat}
+.cloud-icon-philanthropy{background:url("../../../content/dam/web/global/svg-icons/philanthropy-day.svg?version=1562689132189") no-repeat}
+.cloud-icon-philanthropy-day2{background:url("../../../content/dam/web/global/svg-icons/philanthropy-day2.svg?version=1562689132190") no-repeat}
+.cloud-icon-philanthropy-day3{background:url("../../../content/dam/web/global/svg-icons/philanthropy-day3.svg?version=1562689132190") no-repeat}
+.cloud-icon-admin-night{background:url("../../../content/dam/web/global/svg-icons/admin-night.svg?version=1562689132191") no-repeat}
+.cloud-icon-admin{background:url("../../../content/dam/web/global/svg-icons/admin-day.svg?version=1562689132192") no-repeat}
+.cloud-icon-admin-day2{background:url("../../../content/dam/web/global/svg-icons/admin-day2.svg?version=1562689132193") no-repeat}
+.cloud-icon-admin-day3{background:url("../../../content/dam/web/global/svg-icons/admin-day3.svg?version=1562689132194") no-repeat}
+.cloud-icon-authenticator-night{background:url("../../../content/dam/web/global/svg-icons/authenticator-night.svg?version=1562689132195") no-repeat}
+.cloud-icon-authenticator{background:url("../../../content/dam/web/global/svg-icons/authenticator-day.svg?version=1562689132196") no-repeat}
+.cloud-icon-authenticator-day2{background:url("../../../content/dam/web/global/svg-icons/authenticator-day2.svg?version=1562689132196") no-repeat}
+.cloud-icon-authenticator-day3{background:url("../../../content/dam/web/global/svg-icons/authenticator-day3.svg?version=1562689132197") no-repeat}
+.cloud-icon-events-night{background:url("../../../content/dam/web/global/svg-icons/events-night.svg?version=1562689132198") no-repeat}
+.cloud-icon-events{background:url("../../../content/dam/web/global/svg-icons/events-day.svg?version=1562689132199") no-repeat}
+.cloud-icon-events-day2{background:url("../../../content/dam/web/global/svg-icons/events-day2.svg?version=1562689132200") no-repeat}
+.cloud-icon-events-day3{background:url("../../../content/dam/web/global/svg-icons/events-day3.svg?version=1562689132201") no-repeat}
+.cloud-icon-field-service-night{background:url("../../../content/dam/web/global/svg-icons/field-service-night.svg?version=1562689132201") no-repeat}
+.cloud-icon-field-service{background:url("../../../content/dam/web/global/svg-icons/field-service-day.svg?version=1562689132202") no-repeat}
+.cloud-icon-field-service-day2{background:url("../../../content/dam/web/global/svg-icons/field-service-day2.svg?version=1562689132203") no-repeat}
+.cloud-icon-field-service-day3{background:url("../../../content/dam/web/global/svg-icons/field-service-day3.svg?version=1562689132204") no-repeat}
+.cloud-icon-heroku-night{background:url("../../../content/dam/web/global/svg-icons/heroku-night.svg?version=1562689132205") no-repeat}
+.cloud-icon-heroku{background:url("../../../content/dam/web/global/svg-icons/heroku-day.svg?version=1562689132206") no-repeat}
+.cloud-icon-heroku-day2{background:url("../../../content/dam/web/global/svg-icons/heroku-day2.svg?version=1562689132206") no-repeat}
+.cloud-icon-heroku-day3{background:url("../../../content/dam/web/global/svg-icons/heroku-day3.svg?version=1562689132207") no-repeat}
+.cloud-icon-inbox-night{background:url("../../../content/dam/web/global/svg-icons/inbox-night.svg?version=1562689132208") no-repeat}
+.cloud-icon-inbox{background:url("../../../content/dam/web/global/svg-icons/inbox-day.svg?version=1562689132209") no-repeat}
+.cloud-icon-inbox-day2{background:url("../../../content/dam/web/global/svg-icons/inbox-day2.svg?version=1562689132210") no-repeat}
+.cloud-icon-inbox-day3{background:url("../../../content/dam/web/global/svg-icons/inbox-day3.svg?version=1562689132210") no-repeat}
+.cloud-icon-radio-night{background:url("../../../content/dam/web/global/svg-icons/radio-night.svg?version=1562689132211") no-repeat}
+.cloud-icon-radio{background:url("../../../content/dam/web/global/svg-icons/radio-day.svg?version=1562689132212") no-repeat}
+.cloud-icon-radio-day2{background:url("../../../content/dam/web/global/svg-icons/radio-day2.svg?version=1562689132213") no-repeat}
+.cloud-icon-radio-day3{background:url("../../../content/dam/web/global/svg-icons/radio-day3.svg?version=1562689132213") no-repeat}
+.cloud-icon-social-studio-night{background:url("../../../content/dam/web/global/svg-icons/social-studio-night.svg?version=1562689132214") no-repeat}
+.cloud-icon-social-studio{background:url("../../../content/dam/web/global/svg-icons/social-studio-day.svg?version=1562689132215") no-repeat}
+.cloud-icon-social-studio-day2{background:url("../../../content/dam/web/global/svg-icons/social-studio-day2.svg?version=1562689132216") no-repeat}
+.cloud-icon-social-studio-day3{background:url("../../../content/dam/web/global/svg-icons/social-studio-day3.svg?version=1562689132217") no-repeat}
+.cloud-icon-trailhead-night{background:url("../../../content/dam/web/global/svg-icons/trailhead-night.svg?version=1562689132217") no-repeat}
+.cloud-icon-trailhead{background:url("../../../content/dam/web/global/svg-icons/trailhead-day.svg?version=1562689132218") no-repeat}
+.cloud-icon-trailhead-day2{background:url("../../../content/dam/web/global/svg-icons/trailhead-day2.svg?version=1562689132219") no-repeat}
+.cloud-icon-trailhead-day3{background:url("../../../content/dam/web/global/svg-icons/trailhead-day3.svg?version=1562689132220") no-repeat}
+.pricing-not-available{background:url("../../../content/dam/web/global/svg-icons/utility-pricing-not-available.svg?version=1562689132220") no-repeat}
+.pricing-checked{background:url("../../../content/dam/web/global/svg-icons/utility-pricing-check.svg?version=1562689132221") no-repeat}
+.cloud-icon-placeholder1-night{background:url("../../../content/dam/web/global/svg-icons/placeholder1-night.svg?version=1562689132222") no-repeat}
+.cloud-icon-placeholder1{background:url("../../../content/dam/web/global/svg-icons/placeholder1-day.svg?version=1562689132223") no-repeat}
+.cloud-icon-placeholder1-day2{background:url("../../../content/dam/web/global/svg-icons/placeholder1-day2.svg?version=1562689132223") no-repeat}
+.cloud-icon-placeholder1-day3{background:url("../../../content/dam/web/global/svg-icons/placeholder1-day3.svg?version=1562689132224") no-repeat}
+.cloud-icon-placeholder2-night{background:url("../../../content/dam/web/global/svg-icons/placeholder2-night.svg?version=1562689132225") no-repeat}
+.cloud-icon-placeholder2{background:url("../../../content/dam/web/global/svg-icons/placeholder2-day.svg?version=1562689132226") no-repeat}
+.cloud-icon-placeholder2-day2{background:url("../../../content/dam/web/global/svg-icons/placeholder2-day2.svg?version=1562689132226") no-repeat}
+.cloud-icon-placeholder2-day3{background:url("../../../content/dam/web/global/svg-icons/placeholder2-day3.svg?version=1562689132227") no-repeat}
+.cloud-icon-placeholder3-night{background:url("../../../content/dam/web/global/svg-icons/placeholder3-night.svg?version=1562689132228") no-repeat}
+.cloud-icon-placeholder3{background:url("../../../content/dam/web/global/svg-icons/placeholder3-day.svg?version=1562689132229") no-repeat}
+.cloud-icon-placeholder3-day2{background:url("../../../content/dam/web/global/svg-icons/placeholder3-day2.svg?version=1562689132229") no-repeat}
+.cloud-icon-placeholder3-day3{background:url("../../../content/dam/web/global/svg-icons/placeholder3-day3.svg?version=1562689132230") no-repeat}
+.cloud-icon-placeholder4-night{background:url("../../../content/dam/web/global/svg-icons/placeholder4-night.svg?version=1562689132231") no-repeat}
+.cloud-icon-placeholder4{background:url("../../../content/dam/web/global/svg-icons/placeholder4-day.svg?version=1562689132232") no-repeat}
+.cloud-icon-placeholder4-day2{background:url("../../../content/dam/web/global/svg-icons/placeholder4-day2.svg?version=1562689132232") no-repeat}
+.cloud-icon-placeholder4-day3{background:url("../../../content/dam/web/global/svg-icons/placeholder4-day3.svg?version=1562689132233") no-repeat}
+.cloud-icon-placeholder5-night{background:url("../../../content/dam/web/global/svg-icons/placeholder5-night.svg?version=1562689132234") no-repeat}
+.cloud-icon-placeholder5{background:url("../../../content/dam/web/global/svg-icons/placeholder5-day.svg?version=1562689132235") no-repeat}
+.cloud-icon-placeholder5-day2{background:url("../../../content/dam/web/global/svg-icons/placeholder5-day2.svg?version=1562689132235") no-repeat}
+.cloud-icon-placeholder5-day3{background:url("../../../content/dam/web/global/svg-icons/placeholder5-day3.svg?version=1562689132236") no-repeat}
+.cloud-icon-industries:before,.cloud-icon-industries-comms-media:before,.cloud-icon-industries-life-sciences:before,.cloud-icon-industries-manufacturing:before,.cloud-icon-industries-retail:before,.cloud-icon-industries-fin-serv:before,.cloud-icon-industries-health:before,.cloud-icon-industries-media:before,.cloud-icon-industries-automotive:before,.cloud-icon-industries-consumer-goods:before,.cloud-icon-industries-government:before,.cloud-icon-industries-transportation-hospitality:before,.cloud-icon-philanthropy:before{color:#4c2248 !important;padding-right:10px}
+.cloud-icon-industries.vertical-bar-prefix,.cloud-icon-industries-comms-media.vertical-bar-prefix,.cloud-icon-industries-life-sciences.vertical-bar-prefix,.cloud-icon-industries-manufacturing.vertical-bar-prefix,.cloud-icon-industries-retail.vertical-bar-prefix,.cloud-icon-industries-fin-serv.vertical-bar-prefix,.cloud-icon-industries-health.vertical-bar-prefix,.cloud-icon-industries-media.vertical-bar-prefix,.cloud-icon-industries-automotive.vertical-bar-prefix,.cloud-icon-industries-consumer-goods.vertical-bar-prefix,.cloud-icon-industries-government.vertical-bar-prefix,.cloud-icon-industries-transportation-hospitality.vertical-bar-prefix,.cloud-icon-philanthropy.vertical-bar-prefix{padding-left:10px;border-left:1px solid #4c2248}
+.cloud-icon-industries.primary-nav-sublink,.cloud-icon-industries-comms-media.primary-nav-sublink,.cloud-icon-industries-life-sciences.primary-nav-sublink,.cloud-icon-industries-manufacturing.primary-nav-sublink,.cloud-icon-industries-retail.primary-nav-sublink,.cloud-icon-industries-fin-serv.primary-nav-sublink,.cloud-icon-industries-health.primary-nav-sublink,.cloud-icon-industries-media.primary-nav-sublink,.cloud-icon-industries-automotive.primary-nav-sublink,.cloud-icon-industries-consumer-goods.primary-nav-sublink,.cloud-icon-industries-government.primary-nav-sublink,.cloud-icon-industries-transportation-hospitality.primary-nav-sublink,.cloud-icon-philanthropy.primary-nav-sublink,.cloud-icon-industries.secondary-nav-sublink,.cloud-icon-industries-comms-media.secondary-nav-sublink,.cloud-icon-industries-life-sciences.secondary-nav-sublink,.cloud-icon-industries-manufacturing.secondary-nav-sublink,.cloud-icon-industries-retail.secondary-nav-sublink,.cloud-icon-industries-fin-serv.secondary-nav-sublink,.cloud-icon-industries-health.secondary-nav-sublink,.cloud-icon-industries-media.secondary-nav-sublink,.cloud-icon-industries-automotive.secondary-nav-sublink,.cloud-icon-industries-consumer-goods.secondary-nav-sublink,.cloud-icon-industries-government.secondary-nav-sublink,.cloud-icon-industries-transportation-hospitality.secondary-nav-sublink,.cloud-icon-philanthropy.secondary-nav-sublink{background-color:#4c2248 !important;border-bottom:1px solid #4c2248 !important}
+.cloud-icon-industries-product-integration:before{color:#215ca0 !important;padding-right:10px}
+.cloud-icon-industries-product-integration.vertical-bar-prefix{padding-left:10px;border-left:1px solid #215ca0}
+.cloud-icon-industries-product-integration.primary-nav-sublink,.cloud-icon-industries-product-integration.secondary-nav-sublink{background-color:#215ca0 !important;border-bottom:1px solid #215ca0 !important}
+.headingComponent a.preventHover:hover .cloud-icon-industries:before,.headingComponent a.preventHover:hover .cloud-icon-industries-comms-media:before,.headingComponent a.preventHover:hover .cloud-icon-industries-life-sciences:before,.headingComponent a.preventHover:hover .cloud-icon-industries-manufacturing:before,.headingComponent a.preventHover:hover .cloud-icon-industries-retail:before,.headingComponent a.preventHover:hover .cloud-icon-industries-fin-serv:before,.headingComponent a.preventHover:hover .cloud-icon-industries-health:before,.headingComponent a.preventHover:hover .cloud-icon-industries-media:before,.headingComponent a.preventHover:hover .cloud-icon-industries-automotive:before,.headingComponent a.preventHover:hover .cloud-icon-industries-consumer-goods:before,.headingComponent a.preventHover:hover .cloud-icon-industries-government:before,.headingComponent a.preventHover:hover .cloud-icon-industries-transportation-hospitality:before,.headingComponent a.preventHover:hover .cloud-icon-philanthropy:before{color:#4c2248 !important}
+.headingComponent a.preventHover:hover .cloud-icon-industries-product-integration:before{color:#215ca0 !important}
+.headingComponent a:hover .cloud-icon-iot:before{color:#00587a !important}
+.cloud-icon-iot-night{background:url("../../../content/dam/web/global/svg-icons/iot-night.svg?version=1562689132239") no-repeat;color:#00a1e0 !important;padding-right:10px}
+.cloud-icon-iot-night.vertical-bar-prefix{padding-left:10px;border-left:1px solid #00a1e0}
+.cloud-icon-iot-night.primary-nav-sublink,.cloud-icon-iot-night.secondary-nav-sublink{background-color:#00a1e0 !important;border-bottom:1px solid #032e61 !important}
+.cloud-icon-iot{background:url("../../../content/dam/web/global/svg-icons/iot-day.svg?version=1562689132240") no-repeat;color:#00a1e0 !important;padding-right:10px}
+.cloud-icon-iot.vertical-bar-prefix{padding-left:10px;border-left:1px solid #00a1e0}
+.cloud-icon-iot.primary-nav-sublink,.cloud-icon-iot.secondary-nav-sublink{background-color:#00a1e0 !important;border-bottom:1px solid #032e61 !important}
+.cloud-icon-iot-day2{background:url("../../../content/dam/web/global/svg-icons/iot-day2.svg?version=1562689132241") no-repeat;color:#00a1e0 !important;padding-right:10px}
+.cloud-icon-iot-day2.vertical-bar-prefix{padding-left:10px;border-left:1px solid #00a1e0}
+.cloud-icon-iot-day2.primary-nav-sublink,.cloud-icon-iot-day2.secondary-nav-sublink{background-color:#00a1e0 !important;border-bottom:1px solid #032e61 !important}
+.cloud-icon-iot-day3{background:url("../../../content/dam/web/global/svg-icons/iot-day3.svg?version=1562689132242") no-repeat;color:#00a1e0 !important;padding-right:10px}
+.cloud-icon-iot-day3.vertical-bar-prefix{padding-left:10px;border-left:1px solid #00a1e0}
+.cloud-icon-iot-day3.primary-nav-sublink,.cloud-icon-iot-day3.secondary-nav-sublink{background-color:#00a1e0 !important;border-bottom:1px solid #032e61 !important}
+.headingComponent a.preventHover:hover .cloud-icon-iot:before{color:#00a1e0 !important}
+.headingComponent a:hover .cloud-icon-marketing:before{color:#804000 !important}
+.cloud-icon-marketing-night{background:url("../../../content/dam/web/global/svg-icons/marketing-night.svg?version=1562689132243") no-repeat;color:#e67300 !important;padding-right:10px}
+.cloud-icon-marketing-night.vertical-bar-prefix{padding-left:10px;border-left:1px solid #e67300}
+.cloud-icon-marketing-night.primary-nav-sublink,.cloud-icon-marketing-night.secondary-nav-sublink{background-color:#e67300 !important;border-bottom:1px solid #e67300 !important}
+.cloud-icon-marketing{background:url("../../../content/dam/web/global/svg-icons/marketing-day.svg?version=1562689132244") no-repeat;color:#e67300 !important;padding-right:10px}
+.cloud-icon-marketing.vertical-bar-prefix{padding-left:10px;border-left:1px solid #e67300}
+.cloud-icon-marketing.primary-nav-sublink,.cloud-icon-marketing.secondary-nav-sublink{background-color:#e67300 !important;border-bottom:1px solid #e67300 !important}
+.cloud-icon-marketing-day2{background:url("../../../content/dam/web/global/svg-icons/marketing-day2.svg?version=1562689132245") no-repeat;color:#e67300 !important;padding-right:10px}
+.cloud-icon-marketing-day2.vertical-bar-prefix{padding-left:10px;border-left:1px solid #e67300}
+.cloud-icon-marketing-day2.primary-nav-sublink,.cloud-icon-marketing-day2.secondary-nav-sublink{background-color:#e67300 !important;border-bottom:1px solid #e67300 !important}
+.cloud-icon-marketing-day3{background:url("../../../content/dam/web/global/svg-icons/marketing-day3.svg?version=1562689132246") no-repeat;color:#e67300 !important;padding-right:10px}
+.cloud-icon-marketing-day3.vertical-bar-prefix{padding-left:10px;border-left:1px solid #e67300}
+.cloud-icon-marketing-day3.primary-nav-sublink,.cloud-icon-marketing-day3.secondary-nav-sublink{background-color:#e67300 !important;border-bottom:1px solid #e67300 !important}
+.headingComponent a.preventHover:hover .cloud-icon-marketing:before{color:#e67300 !important}
+.headingComponent a:hover .cloud-icon-mittlestand:before{color:#102b4b !important}
+.cloud-icon-mittlestand{background:url("../../../content/dam/web/global/svg-icons/product-mittlestand-day.svg?version=1562689132248") no-repeat;color:#215ca0 !important;padding-right:10px}
+.cloud-icon-mittlestand.vertical-bar-prefix{padding-left:10px;border-left:1px solid #215ca0}
+.cloud-icon-mittlestand.primary-nav-sublink,.cloud-icon-mittlestand.secondary-nav-sublink{background-color:#215ca0 !important;border-bottom:1px solid #215ca0 !important}
+.cloud-icon-mittlestand-day2{background:url("../../../content/dam/web/global/svg-icons/product-mittlestand-day2.svg?version=1562689132249") no-repeat;color:#215ca0 !important;padding-right:10px}
+.cloud-icon-mittlestand-day2.vertical-bar-prefix{padding-left:10px;border-left:1px solid #215ca0}
+.cloud-icon-mittlestand-day2.primary-nav-sublink,.cloud-icon-mittlestand-day2.secondary-nav-sublink{background-color:#215ca0 !important;border-bottom:1px solid #215ca0 !important}
+.cloud-icon-mittlestand-day3{background:url("../../../content/dam/web/global/svg-icons/product-mittlestand-day3.svg?version=1562689132250") no-repeat;color:#215ca0 !important;padding-right:10px}
+.cloud-icon-mittlestand-day3.vertical-bar-prefix{padding-left:10px;border-left:1px solid #215ca0}
+.cloud-icon-mittlestand-day3.primary-nav-sublink,.cloud-icon-mittlestand-day3.secondary-nav-sublink{background-color:#215ca0 !important;border-bottom:1px solid #215ca0 !important}
+.cloud-icon-mittlestand-night{background:url("../../../content/dam/web/global/svg-icons/product-mittlestand-night.svg?version=1562689132251") no-repeat;color:#215ca0 !important;padding-right:10px}
+.cloud-icon-mittlestand-night.vertical-bar-prefix{padding-left:10px;border-left:1px solid #215ca0}
+.cloud-icon-mittlestand-night.primary-nav-sublink,.cloud-icon-mittlestand-night.secondary-nav-sublink{background-color:#215ca0 !important;border-bottom:1px solid #215ca0 !important}
+.headingComponent a.preventHover:hover .cloud-icon-mittlestand:before{color:#215ca0 !important}
+.headingComponent a:hover .cloud-icon-sales:before{color:#001f1d !important}
+.cloud-icon-sales-night{background:url("../../../content/dam/web/global/svg-icons/sales-night.svg?version=1562689132252") no-repeat;color:#00857d !important;padding-right:10px}
+.cloud-icon-sales-night.vertical-bar-prefix{padding-left:10px;border-left:1px solid #00857d}
+.cloud-icon-sales-night.primary-nav-sublink,.cloud-icon-sales-night.secondary-nav-sublink{background-color:#00857d !important;border-bottom:1px solid #00857d !important}
+.cloud-icon-sales{background:url("../../../content/dam/web/global/svg-icons/sales-day.svg?version=1562689132253") no-repeat;color:#00857d !important;padding-right:10px}
+.cloud-icon-sales.vertical-bar-prefix{padding-left:10px;border-left:1px solid #00857d}
+.cloud-icon-sales.primary-nav-sublink,.cloud-icon-sales.secondary-nav-sublink{background-color:#00857d !important;border-bottom:1px solid #00857d !important}
+.cloud-icon-sales-day2{background:url("../../../content/dam/web/global/svg-icons/sales-day2.svg?version=1562689132254") no-repeat;color:#00857d !important;padding-right:10px}
+.cloud-icon-sales-day2.vertical-bar-prefix{padding-left:10px;border-left:1px solid #00857d}
+.cloud-icon-sales-day2.primary-nav-sublink,.cloud-icon-sales-day2.secondary-nav-sublink{background-color:#00857d !important;border-bottom:1px solid #00857d !important}
+.cloud-icon-sales-day3{background:url("../../../content/dam/web/global/svg-icons/sales-day3.svg?version=1562689132255") no-repeat;color:#00857d !important;padding-right:10px}
+.cloud-icon-sales-day3.vertical-bar-prefix{padding-left:10px;border-left:1px solid #00857d}
+.cloud-icon-sales-day3.primary-nav-sublink,.cloud-icon-sales-day3.secondary-nav-sublink{background-color:#00857d !important;border-bottom:1px solid #00857d !important}
+.headingComponent a.preventHover:hover .cloud-icon-sales:before{color:#00857d !important}
+.headingComponent a:hover .cloud-icon-service:before{color:#300d19 !important}
+.cloud-icon-service-night{background:url("../../../content/dam/web/global/svg-icons/service-night.svg?version=1562689132257") no-repeat;color:#812244 !important;padding-right:10px}
+.cloud-icon-service-night.vertical-bar-prefix{padding-left:10px;border-left:1px solid #812244}
+.cloud-icon-service-night.primary-nav-sublink,.cloud-icon-service-night.secondary-nav-sublink{background-color:#812244 !important;border-bottom:1px solid #812244 !important}
+.cloud-icon-service{background:url("../../../content/dam/web/global/svg-icons/service-day.svg?version=1562689132258") no-repeat;color:#812244 !important;padding-right:10px}
+.cloud-icon-service.vertical-bar-prefix{padding-left:10px;border-left:1px solid #812244}
+.cloud-icon-service.primary-nav-sublink,.cloud-icon-service.secondary-nav-sublink{background-color:#812244 !important;border-bottom:1px solid #812244 !important}
+.cloud-icon-service-day2{background:url("../../../content/dam/web/global/svg-icons/service-day2.svg?version=1562689132259") no-repeat;color:#812244 !important;padding-right:10px}
+.cloud-icon-service-day2.vertical-bar-prefix{padding-left:10px;border-left:1px solid #812244}
+.cloud-icon-service-day2.primary-nav-sublink,.cloud-icon-service-day2.secondary-nav-sublink{background-color:#812244 !important;border-bottom:1px solid #812244 !important}
+.cloud-icon-service-day3{background:url("../../../content/dam/web/global/svg-icons/service-day3.svg?version=1562689132260") no-repeat;color:#812244 !important;padding-right:10px}
+.cloud-icon-service-day3.vertical-bar-prefix{padding-left:10px;border-left:1px solid #812244}
+.cloud-icon-service-day3.primary-nav-sublink,.cloud-icon-service-day3.secondary-nav-sublink{background-color:#812244 !important;border-bottom:1px solid #812244 !important}
+.headingComponent a.preventHover:hover .cloud-icon-service:before{color:#812244 !important}
+.headingComponent a:hover .cloud-icon-e-commerce:before{color:#162213 !important}
+.cloud-icon-e-commerce-night{background:url("../../../content/dam/web/global/svg-icons/commerce-night.svg?version=1562689132261") no-repeat;color:#416437 !important;padding-right:10px}
+.cloud-icon-e-commerce-night.vertical-bar-prefix{padding-left:10px;border-left:1px solid #416437}
+.cloud-icon-e-commerce-night.primary-nav-sublink,.cloud-icon-e-commerce-night.secondary-nav-sublink{background-color:#416437 !important;border-bottom:1px solid #416437 !important}
+.cloud-icon-e-commerce{background:url("../../../content/dam/web/global/svg-icons/commerce-day.svg?version=1562689132262") no-repeat;color:#416437 !important;padding-right:10px}
+.cloud-icon-e-commerce.vertical-bar-prefix{padding-left:10px;border-left:1px solid #416437}
+.cloud-icon-e-commerce.primary-nav-sublink,.cloud-icon-e-commerce.secondary-nav-sublink{background-color:#416437 !important;border-bottom:1px solid #416437 !important}
+.cloud-icon-e-commerce-day2{background:url("../../../content/dam/web/global/svg-icons/commerce-day2.svg?version=1562689132264") no-repeat;color:#416437 !important;padding-right:10px}
+.cloud-icon-e-commerce-day2.vertical-bar-prefix{padding-left:10px;border-left:1px solid #416437}
+.cloud-icon-e-commerce-day2.primary-nav-sublink,.cloud-icon-e-commerce-day2.secondary-nav-sublink{background-color:#416437 !important;border-bottom:1px solid #416437 !important}
+.cloud-icon-e-commerce-day3{background:url("../../../content/dam/web/global/svg-icons/commerce-day3.svg?version=1562689132265") no-repeat;color:#416437 !important;padding-right:10px}
+.cloud-icon-e-commerce-day3.vertical-bar-prefix{padding-left:10px;border-left:1px solid #416437}
+.cloud-icon-e-commerce-day3.primary-nav-sublink,.cloud-icon-e-commerce-day3.secondary-nav-sublink{background-color:#416437 !important;border-bottom:1px solid #416437 !important}
+.headingComponent a.preventHover:hover .cloud-icon-e-commerce:before{color:#416437 !important}
+.headingComponent a:hover .cloud-icon-certified:before{color:#00587a !important}
+.cloud-icon-certified-night{background:url("../../../content/dam/web/global/svg-icons/certified-night.svg?version=1562689132266") no-repeat;color:#00a1e0 !important;padding-right:10px;width:20px !important;height:20px !important}
+.cloud-icon-certified-night.vertical-bar-prefix{padding-left:10px;border-left:1px solid #00a1e0}
+.cloud-icon-certified-night.primary-nav-sublink,.cloud-icon-certified-night.secondary-nav-sublink{background-color:#00a1e0 !important;border-bottom:1px solid #00a1e0 !important}
+.cloud-icon-certified{background:url("../../../content/dam/web/global/svg-icons/certified-day.svg?version=1562689132267") no-repeat;color:#00a1e0 !important;padding-right:10px;width:20px !important;height:20px !important}
+.cloud-icon-certified.vertical-bar-prefix{padding-left:10px;border-left:1px solid #00a1e0}
+.cloud-icon-certified.primary-nav-sublink,.cloud-icon-certified.secondary-nav-sublink{background-color:#00a1e0 !important;border-bottom:1px solid #00a1e0 !important}
+.headingComponent a.preventHover:hover .cloud-icon-certified:before{color:#00a1e0 !important}
+@font-face{font-family:'SalesforceSansBold';src:url('clientlibs_base/fonts/SalesforceSans-Bold.eot');src:url('clientlibs_base/fonts/SalesforceSans-Bold.eot?#iefix') format('embedded-opentype'),url('clientlibs_base/fonts/SalesforceSans-Bold.woff') format('woff'),url('clientlibs_base/fonts/SalesforceSans-Bold.woff2') format('woff2'),url('clientlibs_base/fonts/SalesforceSans-Bold.ttf') format('truetype'),url('clientlibs_base/fonts/SalesforceSans-Bold.svg#SalesforceSansBold') format('svg');font-weight:normal;font-style:normal}
+@font-face{font-family:'SalesforceSansBoldItalic';src:url('clientlibs_base/fonts/SalesforceSans-BoldItalic.eot');src:url('clientlibs_base/fonts/SalesforceSans-BoldItalic.eot?#iefix') format('embedded-opentype'),url('clientlibs_base/fonts/SalesforceSans-BoldItalic.woff') format('woff'),url('clientlibs_base/fonts/SalesforceSans-BoldItalic.woff2') format('woff2'),url('clientlibs_base/fonts/SalesforceSans-BoldItalic.ttf') format('truetype'),url('clientlibs_base/fonts/SalesforceSans-BoldItalic.svg#SalesforceSansBoldItalic') format('svg');font-weight:normal;font-style:normal}
+@font-face{font-family:'SalesforceSansItalic';src:url('clientlibs_base/fonts/SalesforceSans-Italic.eot');src:url('clientlibs_base/fonts/SalesforceSans-Italic.eot?#iefix') format('embedded-opentype'),url('clientlibs_base/fonts/SalesforceSans-Italic.woff') format('woff'),url('clientlibs_base/fonts/SalesforceSans-Italic.woff2') format('woff2'),url('clientlibs_base/fonts/SalesforceSans-Italic.ttf') format('truetype'),url('clientlibs_base/fonts/SalesforceSans-Italic.svg#SalesforceSansItalic') format('svg');font-weight:normal;font-style:normal}
+@font-face{font-family:'SalesforceSansLight';src:url('clientlibs_base/fonts/SalesforceSans-Light.eot');src:url('clientlibs_base/fonts/SalesforceSans-Light.eot?#iefix') format('embedded-opentype'),url('clientlibs_base/fonts/SalesforceSans-Light.woff') format('woff'),url('clientlibs_base/fonts/SalesforceSans-Light.woff2') format('woff2'),url('clientlibs_base/fonts/SalesforceSans-Light.ttf') format('truetype'),url('clientlibs_base/fonts/SalesforceSans-Light.svg#SalesforceSansLight') format('svg');font-weight:normal;font-style:normal}
+@font-face{font-family:'SalesforceSansLightItalic';src:url('clientlibs_base/fonts/SalesforceSans-LightItalic.eot');src:url('clientlibs_base/fonts/SalesforceSans-LightItalic.eot?#iefix') format('embedded-opentype'),url('clientlibs_base/fonts/SalesforceSans-LightItalic.woff') format('woff'),url('clientlibs_base/fonts/SalesforceSans-LightItalic.woff2') format('woff2'),url('clientlibs_base/fonts/SalesforceSans-LightItalic.ttf') format('truetype'),url('clientlibs_base/fonts/SalesforceSans-LightItalic.svg#SalesforceSansLightItalic') format('svg');font-weight:normal;font-style:normal}
+@font-face{font-family:'SalesforceSansRegular';src:url('clientlibs_base/fonts/SalesforceSans-Regular.eot');src:url('clientlibs_base/fonts/SalesforceSans-Regular.eot?#iefix') format('embedded-opentype'),url('clientlibs_base/fonts/SalesforceSans-Regular.woff') format('woff'),url('clientlibs_base/fonts/SalesforceSans-Regular.woff2') format('woff2'),url('clientlibs_base/fonts/SalesforceSans-Regular.ttf') format('truetype'),url('clientlibs_base/fonts/SalesforceSans-Regular.svg#SalesforceSansRegular') format('svg');font-weight:normal;font-style:normal}
+@font-face{font-family:'SalesforceSansThin';src:url('clientlibs_base/fonts/SalesforceSans-Thin.eot');src:url('clientlibs_base/fonts/SalesforceSans-Thin.eot?#iefix') format('embedded-opentype'),url('clientlibs_base/fonts/SalesforceSans-Thin.woff') format('woff'),url('clientlibs_base/fonts/SalesforceSans-Thin.woff2') format('woff2'),url('clientlibs_base/fonts/SalesforceSans-Thin.ttf') format('truetype'),url('clientlibs_base/fonts/SalesforceSans-Thin.svg#SalesforceSansThin') format('svg');font-weight:normal;font-style:normal}
+@font-face{font-family:'SalesforceSansThinItalic';src:url('clientlibs_base/fonts/SalesforceSans-ThinItalic.eot');src:url('clientlibs_base/fonts/SalesforceSans-ThinItalic.eot?#iefix') format('embedded-opentype'),url('clientlibs_base/fonts/SalesforceSans-ThinItalic.woff') format('woff'),url('clientlibs_base/fonts/SalesforceSans-ThinItalic.woff2') format('woff2'),url('clientlibs_base/fonts/SalesforceSans-ThinItalic.ttf') format('truetype'),url('clientlibs_base/fonts/SalesforceSans-ThinItalic.svg#SalesforceSansThinItalic') format('svg');font-weight:normal;font-style:normal}
+.salesforce-sans-bold{font-family:'SalesforceSansBold',Helvetica,Arial,sans-serif !important}
+.salesforce-sans-bolditalic{font-family:'SalesforceSansBoldItalic',Helvetica,Arial,sans-serif !important}
+.salesforce-sans-italic{font-family:'SalesforceSansItalic',Helvetica,Arial,sans-serif !important}
+.salesforce-sans-light{font-family:'SalesforceSansLight',Helvetica,Arial,sans-serif !important}
+.salesforce-sans-regular{font-family:'SalesforceSansRegular',Helvetica,Arial,sans-serif !important}
+.salesforce-sans-thin{font-family:'SalesforceSansThin',Helvetica,Arial,sans-serif !important}
+@media(max-width:767px){.salesforce-sans-thin{font-family:'SalesforceSansLight',Helvetica,Arial,sans-serif !important}
+}
+@font-face{font-family:'Salesforce Icons';src:url('clientlibs_base/fonts/salesforce-icons.eot');src:url('clientlibs_base/fonts/salesforce-icons.eot#iefix') format('embedded-opentype'),url('clientlibs_base/fonts/salesforce-icons.woff2') format('woff2'),url('clientlibs_base/fonts/salesforce-icons.ttf') format('truetype'),url('clientlibs_base/fonts/salesforce-icons.woff') format('woff'),url('clientlibs_base/fonts/salesforce-icons.svg#icomoon') format('svg');font-weight:normal;font-style:normal}
